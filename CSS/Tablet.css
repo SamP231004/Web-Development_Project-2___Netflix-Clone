@@ -1,0 +1,110 @@
+/* *********************************************************************************** */
+
+.red-btn-2 {
+    width: 20vw;
+}
+.Initial input {
+    width: 60vw;
+}
+
+/* *********************************************************************************** */
+
+.Initial> :first-child  {
+    font-size: 5vh;
+}
+.Initial> :nth-child(2) {
+    font-size: 3vh;
+}
+.Initial> :nth-child(3) {
+    font-size: 3vh;
+}
+
+/* *********************************************************************************** */
+
+.first {
+    flex-wrap: wrap;
+}
+.first_img img {
+    width: 420px;
+}
+.first> div :first-child {
+    font-size: 5vh;
+    text-align: center;
+}
+.first> div :nth-child(2) {
+    font-size: 3.5vh;
+    text-align: center;
+}
+.first_img img {
+    width: 380px;
+}
+.first_img video {
+    top: 60px;
+    right: 53px;
+    width: 275px;
+}
+.first.second {
+    flex-direction: column-reverse;
+}
+.first.second img {
+    width: 310px;
+}
+.first_img video.video-2 {
+    top: 23px;
+    right: 76px;
+    width: 232px;
+}
+.first.fourth {
+    flex-direction: column-reverse;
+}
+.first.fourth img {
+    margin-top: 10px;
+    width: 350px;
+}
+
+/* *********************************************************************************** */
+
+.faq {
+    padding: 50px 0px;
+}
+.faq h2 {
+    font-size: 5vh;
+}
+.faq-box {
+    padding: 28px 22px;
+    width: 75vw;
+    height: 3vh;
+    padding-top: 18px;  
+}
+.faq-box img {
+    width: 30px
+}
+
+.Initial-2 {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.Initial-2-div {
+    display: flex;
+    justify-content: center;
+}
+.Initial-2 input {
+    width: 55vw;
+}
+
+/* *********************************************************************************** */
+
+footer {
+    max-width: 80vw;
+}
+footer .questions {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    grid-template-columns: 1fr 1fr;
+}
+.footer a {
+    font-size: 20px;
+}

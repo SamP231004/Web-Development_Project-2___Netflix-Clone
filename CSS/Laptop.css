@@ -1,0 +1,287 @@
+/* *********************************************************************************** */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+}
+
+/* *********************************************************************************** */
+
+.main {
+    background-image: url(../Images_Used/image_1.jpg);
+    background-position: center center;
+    /* background-repeat: inherit; */
+    background-repeat: no-repeat;
+    background-size: max(1550px, 100vw);
+    height: 100vh;
+    position: relative;   
+}
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.55;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+/* *********************************************************************************** */
+
+nav {
+    /* max-width: 0vw; */
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 32px 38px;
+    height: 62px;
+}
+nav img {
+    color: rgb(207, 4, 4);
+    width: 185px;
+    position: relative;
+    z-index: 8;
+}
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+/* *********************************************************************************** */
+
+.btn {
+    height: 40px;
+    width: 135px;
+    padding: 3px 1vw;
+    font-weight: bold;
+    background-color: rgba(45, 45, 45, 0.6);
+    color: white;
+    font-size: 2.5vh;
+    margin: 0px 20px;
+    border-radius: 7.5px;
+    border: 0.1px solid white;
+}
+.btn img {
+    height: 25px;
+    width: 25px;
+    margin-right: 14px;
+    vertical-align: middle;
+}
+.red-btn-1 {
+    height: 40px;
+    width: 100px;
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    font-size: 2.5vh;
+    /* margin: 0px 25px; */
+    border-radius: 7.5px;
+    border: 1px solid red;
+}
+.red-btn-2 {
+    height: 10vh;
+    width: 13vw;
+    padding: 3px 8px;
+    font-weight: bold;
+    font-size: 3.3vh;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.Initial input {
+    width: 28vw;
+    height: 10vh;
+    font-size: 3vh;
+    padding-left: 12px;
+    border-radius: 13px;
+    border: 1px solid white;
+    background-color: rgba(45, 45, 45, 0.6);
+    color: white;
+}
+.Initial div {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+/* *********************************************************************************** */
+
+div .Initial {
+    height: calc(100% - 62px - 64px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 1.5vh;
+    padding: 0px 23px;
+}
+.Initial> :first-child {
+    font-weight: 900;
+    font-size: 8vh;
+    text-align: center;
+}
+.Initial> :nth-child(2) {
+    font-weight: 400;
+    font-size: 3.8vh;
+    text-align: center;
+}
+.Initial> :nth-child(3) {
+    font-weight: 400;
+    font-size: 3.8vh;
+    text-align: center;
+}
+
+/* *********************************************************************************** */
+
+.separate {
+    height: 10px;
+    background-color: rgba(64, 64, 64, 0.5);
+}
+
+/* *********************************************************************************** */
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 90vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.first_img {
+    position: relative;
+}
+.first_img img{
+    width: 548px;
+    position: relative;
+    z-index: 10;
+}
+.first_img video {
+    position: absolute;
+    top: 85px;
+    right: 75px;
+    width: 400px
+}
+.first_img video.video-2 {
+    position: absolute;
+    top: 35px;
+    right: 110px;
+    width: 330px;
+}
+.first> div {
+    display: flex;
+    flex-direction: column;
+}
+.first> div :first-child {
+    font-size: 9vh;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+.first> div :nth-child(2) {
+    font-size: 4vh;
+}
+
+/* *********************************************************************************** */
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 72px 0px;
+}
+.faq h2 {
+    text-align: center;
+    font-size: 9vh;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 3vh;
+}
+.faq-box {
+    justify-content: space-between;
+    display: flex;
+    background: rgba(59, 59, 59, 0.8);
+    padding: 30px;
+    width: 86vw;
+    height: 5vh;
+    margin: 20px auto;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 4vh;
+}
+.faq :hover {
+    background: rgb(59, 59, 59); 
+}
+.faq-box img {
+    width: 45px;
+    filter: invert(100%);
+}
+
+.Initial-2 {
+    color: white;
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    gap: 4.5vh;
+    padding: 0px 23px;
+    margin-bottom: 10vh;
+}
+.Initial-2 input {
+    width: 28vw;
+    height: 10vh;
+    font-size: 3vh;
+    padding-left: 12px;
+    border-radius: 13px;
+    border: 1px solid white;
+    background-color: rgba(45, 45, 45, 0.6);
+    color: white;
+}
+
+/* *********************************************************************************** */
+
+footer {
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding: 14px;
+}
+footer .questions {
+    padding: 34px 0px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer a {
+    /* text-decoration: none; */
+    color: white;
+    font-size: 15px;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 15px
+}
+.copyright {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+/* *********************************************************************************** */

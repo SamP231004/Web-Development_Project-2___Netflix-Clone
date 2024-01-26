@@ -1,0 +1,148 @@
+/* *********************************************************************************** */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav img {
+    width: 250px;
+}
+
+/* *********************************************************************************** */
+
+.btn {
+    margin: 25px 0px;
+    height: 32px;
+    width: 95px;
+}
+.btn img {
+    height: 19px;
+    width: 19px;
+    margin-right: 5px;
+}
+.red-btn-1 {
+    height: 30px;
+    width: 75px;
+}
+.red-btn-2 {
+    height: 8vh;
+    width: 23vw;
+    font-size: 14px;
+}
+
+.Initial input {
+    width: 63vw;
+    height: 8vh;
+}
+
+/* *********************************************************************************** */
+
+div .Initial {
+    padding: 0px 0px;
+}
+.Initial> :first-child {
+    font-size: 4vh;
+}
+.Initial> :nth-child(2) {
+    font-size: 3vh;
+}
+.Initial> :nth-child(3) {
+    font-size: 2.5vh;
+}
+
+/* *********************************************************************************** */
+
+.first {
+    flex-wrap: wrap;
+}
+.first_img img {
+    width: 330px;
+    margin-top: 0px;
+}
+.first_img video {
+    top: 50px;
+    right: 47px;
+    width: 240px;
+}
+.first> div :first-child {
+    font-size: 5vh;
+    text-align: center;
+}
+.first> div :nth-child(2) {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.first.second {
+    flex-direction: column-reverse;
+}
+.first.second img {
+    width: 270px;
+}
+
+.first.third img {
+    width: 310px;
+}
+.first.third video {
+    top: 21px;
+    right: 63px;
+    width: 187px;
+}
+
+.first.fourth {
+    flex-direction: column-reverse;
+}
+.first.fourth img {
+    margin-top: 25px;
+    width: 280px;
+}
+
+/* *********************************************************************************** */
+
+.faq {
+    padding: 10px 0px;
+}
+.faq h2 {
+    font-size: 5vh;
+}
+.faq-box {
+    padding: 20px 15px;
+    width: 80vw;
+    height: 5vh;
+    margin: 20px auto;
+    font-size: 3vh;
+}
+.faq-box img {
+    width: 25px;
+}
+
+.Initial-2 {
+    font-size: 4vh;
+    text-align: center;
+}
+.Initial-2 input {
+    width: 80vw;
+    margin-bottom: 10px;
+}
+
+/* *********************************************************************************** */
+
+footer {
+    max-width: 80vw;
+}
+footer .questions {
+    font-size: 18px;
+    text-align: center;
+}
+.footer {
+    grid-template-columns: 1fr 1fr;
+}
+.footer a {
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.copyright {
+    font-weight: 500;
+}
