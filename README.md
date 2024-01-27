@@ -1,4 +1,4 @@
-<!-- https://raw.githack.com/SamP231004/Web-Development_Project-2___Netflix-Clone/main/Netflix_Clone.html -->
+# Web-Development_Project-2___Netflix-Clone
 
 Desktop View
 
@@ -18,7 +18,7 @@ Desktop View
 
 Mobile View
 
-![Alt text](ScreenShots/SS_8.png)
+ ![Alt text](ScreenShots/SS_8.png)
 
 ![Alt text](ScreenShots/SS_9.png)
 
